@@ -7,6 +7,24 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+.poppins-regular {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
 html,
 body,
 div,
@@ -1474,8 +1492,9 @@ h6 {
 }
 
 h1 {
-  font-size: 2.4em;
+  font-size: 2.6em;
   letter-spacing: -0.015em;
+  font-style: poppins-medium;
 }
 
 h2 {
@@ -1550,6 +1569,7 @@ table,
 blockquote,
 form {
   margin-bottom: 2em;
+  font-style: poppins-regular;
 }
 
 /* Table */
