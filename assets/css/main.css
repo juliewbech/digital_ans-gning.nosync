@@ -1381,10 +1381,6 @@ html {
   box-sizing: border-box;
 }
 
-img {
-  width: 100%;
-}
-
 *,
 *:before,
 *:after {
@@ -1876,6 +1872,11 @@ ul.actions li:first-child {
 
 .icon > .label {
   display: none;
+}
+
+.SoMe {
+  width: 80%;
+  height: 80%;
 }
 
 /* Nav */
