@@ -1426,6 +1426,12 @@ select {
   select {
     font-size: 15pt;
   }
+
+  .grid_SoMe {
+    display: flex;
+    gap: 8px;
+    padding-top: 12px;
+  }
 }
 
 @media screen and (max-width: 1280px) {
@@ -1473,7 +1479,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1.8em;
+  font-size: 1.2em;
   letter-spacing: -0.015em;
 }
 
@@ -1886,8 +1892,15 @@ ul.actions li:first-child {
 }
 
 .SoMe {
-  width: 80%;
-  height: 80%;
+  transition: transform 0.3s ease-in-out;
+  width: 100%;
+  height: 100%;
+}
+
+.SoMe:hover {
+  transform: scale(1.5) rotate(5deg);
+  width: 100%;
+  height: 100%;
 }
 
 /* Nav */
@@ -2208,8 +2221,7 @@ body.is-preload #wrapper {
 }
 
 #main > .panel.intro header p {
-  letter-spacing: -0.015em;
-  font-size: 1.25em;
+  font-size: 16px;
   margin: 0.25em 0 0 0;
 }
 
