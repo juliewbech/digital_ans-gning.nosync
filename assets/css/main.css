@@ -1540,7 +1540,11 @@ select {
   }
 }
 
-strong,
+strong {
+  font-weight: 450;
+  color: #363636;
+}
+
 b,
 h1,
 h2,
@@ -1548,7 +1552,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 400;
+  font-weight: 600;
   color: #363636;
 }
 
