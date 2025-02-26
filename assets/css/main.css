@@ -7,6 +7,24 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+.poppins-thin {
+  font-family: "Poppins", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
 .poppins-regular {
   font-family: "Poppins", serif;
   font-weight: 400;
@@ -23,6 +41,30 @@
   font-family: "Poppins", serif;
   font-weight: 600;
   font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: italic;
 }
 
 html,
@@ -1430,11 +1472,10 @@ body,
 input,
 textarea,
 select {
-  font-family: "Source Sans Pro", sans-serif;
   font-weight: 300;
   color: #777777;
   font-size: 20pt;
-  line-height: 1.75em;
+  line-height: 1.5em;
 }
 
 @media screen and (max-width: 1680px) {
@@ -1447,7 +1488,7 @@ select {
 
   .grid_SoMe {
     display: flex;
-    gap: 8px;
+    gap: 20px;
     padding-top: 12px;
   }
 }
@@ -1494,12 +1535,13 @@ h6 {
 h1 {
   font-size: 2.6em;
   letter-spacing: -0.015em;
-  font-style: poppins-medium;
+  font-family: poppins-medium;
 }
 
 h2 {
   font-size: 1.2em;
   letter-spacing: -0.015em;
+  font-style: poppins-regular;
 }
 
 h3,
@@ -1512,18 +1554,22 @@ h6 {
 
 @media screen and (max-width: 736px) {
   h1 {
-    font-size: 1.75em;
+    font-size: 2.5em;
   }
 
   h2 {
-    font-size: 1.375em;
+    font-size: 1.3em;
+    padding-bottom: 1rem;
   }
 
-  h3,
+  h3 {
+    font-size: 1em;
+  }
+
   h4,
   h5,
   h6 {
-    font-size: 1em;
+    font-size: 0.9em;
   }
 }
 
@@ -1569,7 +1615,7 @@ table,
 blockquote,
 form {
   margin-bottom: 2em;
-  font-style: poppins-regular;
+  font-size: 0.85em;
 }
 
 /* Table */
@@ -1913,14 +1959,14 @@ ul.actions li:first-child {
 
 .SoMe {
   transition: transform 0.3s ease-in-out;
-  width: 100%;
-  height: 100%;
+  width: 160%;
+  height: 160%;
 }
 
 .SoMe:hover {
   transform: scale(1.5) rotate(5deg);
-  width: 100%;
-  height: 100%;
+  width: 160%;
+  height: 160%;
 }
 
 /* Nav */
@@ -2017,6 +2063,18 @@ ul.actions li:first-child {
 
 #nav a.active:after {
   border-bottom-width: 0.5em;
+}
+
+.navicon {
+  transition: transform 0.3s ease-in-out;
+  width: 100%;
+  height: 100%;
+}
+
+.navicon:hover {
+  transform: scale(1.5) rotate(5deg);
+  width: 100%;
+  height: 100%;
 }
 
 @media screen and (max-width: 980px) {
