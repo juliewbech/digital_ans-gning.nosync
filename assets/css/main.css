@@ -1491,6 +1491,27 @@ select {
     gap: 20px;
     padding-top: 12px;
   }
+
+  .grid_software {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .software {
+    flex: 1 0 50px;
+    height: 150px;
+  }
+
+  .softwareimg {
+    width: 80%;
+  }
+
+  .grid_sprog {
+    display: flex;
+    gap: 30px;
+    padding-top: 12px;
+  }
 }
 
 @media screen and (max-width: 1280px) {
@@ -1972,7 +1993,7 @@ ul.actions li:first-child {
 }
 
 .sprogicon {
-  width: 80%;
+  width: 100%;
 }
 
 /* Nav */
