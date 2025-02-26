@@ -1565,6 +1565,7 @@ h6 {
 h1 {
   font-size: 2.4em;
   letter-spacing: -0.015em;
+  padding-bottom: 1.5rem;
 }
 
 h2 {
@@ -1781,6 +1782,11 @@ header > p {
   padding-right: 35px;
 }
 
+.portfolio {
+  display: block;
+  width: 100%;
+}
+
 .image.featured {
   display: block;
   width: 100%;
@@ -1805,6 +1811,7 @@ header > p {
 .workimg {
   border-radius: 15px;
   /* outline: 3px solid red; */
+  width: 100%;
   filter: grayscale(100%);
   transform: scale(1);
   transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
