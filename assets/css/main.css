@@ -1789,12 +1789,14 @@ header > p {
 .workimg {
   border-radius: 15px;
   /* outline: 3px solid red; */
-  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);
-  transition: transform 0.3s ease-in-out;
+  filter: grayscale(100%);
+  transform: scale(1);
+  transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
 }
 
 .workimg:hover {
   transform: scale(1.1) rotate(5deg);
+  filter: grayscale(0%); /* Fjern gråtone-effekten på hover */
 }
 
 /* Button */
