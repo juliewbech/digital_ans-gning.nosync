@@ -1499,11 +1499,11 @@ select {
   }
 
   .software {
-    flex: 1 0 50px;
+    flex: 1 0 100px;
   }
 
   .softwareimg {
-    width: 80%;
+    width: 50%;
   }
 
   .grid_sprog {
@@ -1519,6 +1519,12 @@ select {
   textarea,
   select {
     font-size: 14pt;
+  }
+
+  .image.fit {
+    display: block;
+    width: 70%;
+    padding-right: 35px;
   }
 }
 
@@ -1557,23 +1563,29 @@ h6 {
 }
 
 h1 {
-  font-size: 2.6em;
+  font-size: 2.4em;
   letter-spacing: -0.015em;
-  font-family: poppins-medium;
 }
 
 h2 {
-  font-size: 1.2em;
+  font-size: 1.5em;
+  padding-bottom: 1.5rem;
   letter-spacing: -0.015em;
-  font-style: poppins-regular;
 }
 
-h3,
+h3 {
+  font-size: 1em;
+  padding-bottom: 0.2rem;
+}
+
 h4,
 h5,
 h6 {
-  font-size: 1.25em;
-  letter-spacing: -0.015em;
+  font-size: 0.9em;
+}
+
+p {
+  font-size: 0.8em;
 }
 
 @media screen and (max-width: 736px) {
@@ -1633,7 +1645,6 @@ br.clear {
   clear: both;
 }
 
-p,
 ul,
 ol,
 dl,
@@ -1766,7 +1777,8 @@ header > p {
 
 .image.fit {
   display: block;
-  width: 100%;
+  width: 70%;
+  padding-right: 35px;
 }
 
 .image.featured {
