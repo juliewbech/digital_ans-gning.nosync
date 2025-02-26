@@ -1971,6 +1971,10 @@ ul.actions li:first-child {
   height: 160%;
 }
 
+.sprogicon {
+  width: 80%;
+}
+
 /* Nav */
 
 #nav {
