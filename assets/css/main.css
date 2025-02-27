@@ -1454,9 +1454,10 @@ html {
 }
 
 body {
-  background-image: url("images/overlay.png"), url("images/bg.jpg");
-  background-repeat: repeat, no-repeat;
-  background-size: auto, 100% 100%;
+  background-image: url("https://res.cloudinary.com/drcrkyvx8/image/upload/v1740661542/abstract-gradient-background-with-grain-texture-captivating-noise-airbrush-minimalist-wallpaper_opoad2.jpg"),
+    url(images/overlay.png);
+  background-repeat: no-repeat, repeat;
+  background-size: 100% 100%, auto;
   background-attachment: fixed;
   overflow-y: scroll;
 }
