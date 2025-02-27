@@ -1528,6 +1528,7 @@ select {
     display: block;
     width: 100%;
     padding: 4rem;
+    box-sizing: border-box;
   }
 }
 
@@ -1539,12 +1540,6 @@ select {
     font-size: 14pt;
   }
 
-  .image.fit {
-    display: block;
-    width: 70%;
-    padding-right: 35px;
-  }
-
   .mig {
     display: block;
     width: 30%;
@@ -1554,6 +1549,7 @@ select {
     display: block;
     width: 100%;
     padding: 4rem;
+    box-sizing: border-box;
   }
 }
 
@@ -1571,8 +1567,10 @@ select {
 
   .image.fit {
     display: block;
-    width: 100%;
     padding: 4rem;
+    box-sizing: border-box;
+    max-width: 100%;
+    width: auto;
   }
 }
 
@@ -1591,8 +1589,10 @@ select {
 
   .image.fit {
     display: block;
-    width: 100%;
     padding: 4rem;
+    box-sizing: border-box;
+    max-width: 100%;
+    width: auto;
   }
 }
 
