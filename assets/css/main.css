@@ -1523,6 +1523,12 @@ select {
     display: block;
     width: 25%;
   }
+
+  .image.fit {
+    display: block;
+    width: 100%;
+    padding: 4rem;
+  }
 }
 
 @media screen and (max-width: 1280px) {
@@ -1543,6 +1549,12 @@ select {
     display: block;
     width: 30%;
   }
+
+  .image.fit {
+    display: block;
+    width: 100%;
+    padding: 4rem;
+  }
 }
 
 @media screen and (max-width: 736px) {
@@ -1555,6 +1567,12 @@ select {
   .mig {
     display: block;
     width: 100%;
+  }
+
+  .image.fit {
+    display: block;
+    width: 100%;
+    padding: 4rem;
   }
 }
 
@@ -1569,6 +1587,12 @@ select {
   .mig {
     display: block;
     width: 100%;
+  }
+
+  .image.fit {
+    display: block;
+    width: 100%;
+    padding: 4rem;
   }
 }
 
@@ -1813,11 +1837,11 @@ header > p {
   width: 100%;
 }
 
-.image.fit {
+/* .image.fit {
   display: block;
   width: 70%;
   padding-right: 35px;
-}
+} */
 
 .krudsedulle {
   padding-top: 1rem;
