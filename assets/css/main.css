@@ -1682,6 +1682,16 @@ table.default thead {
 
 /* Form */
 
+input {
+  border-radius: 18px;
+  font-size: 1em;
+}
+
+textarea {
+  border-radius: 18px;
+  font-size: 1em;
+}
+
 form label {
   display: block;
   font-weight: 400;
@@ -1716,8 +1726,10 @@ form textarea:focus {
 form input[type="text"],
 form input[type="email"],
 form input[type="password"],
+form textarea [type="text"],
 form select {
   line-height: 1.35em;
+  font-size: 1em;
 }
 
 form ::-webkit-input-placeholder {
@@ -1841,6 +1853,7 @@ button,
   cursor: pointer;
   outline: 0;
   padding: 0.7em 1.5em 0.7em 1.5em;
+  border-radius: 25px;
 }
 
 input[type="button"]:hover,
@@ -1865,6 +1878,7 @@ input[type="reset"].alt,
 button.alt,
 .button.alt {
   background-color: #777777;
+  border-radius: 25px;
 }
 
 input[type="button"].alt:hover,
@@ -1873,6 +1887,7 @@ input[type="reset"].alt:hover,
 button.alt:hover,
 .button.alt:hover {
   background-color: #888888;
+  border-radius: 25px;
 }
 
 input[type="button"].alt:active,
@@ -1881,6 +1896,7 @@ input[type="reset"].alt:active,
 button.alt:active,
 .button.alt:active {
   background-color: #999999;
+  border-radius: 25px;
 }
 
 input[type="button"].small,
@@ -1889,6 +1905,7 @@ input[type="reset"].small,
 button.small,
 .button.small {
   font-size: 0.75em;
+  border-radius: 25px;
 }
 
 input[type="button"].large,
@@ -1898,6 +1915,7 @@ button.large,
 .button.large {
   font-size: 1.25em;
   padding: 0.5em 1.25em 0.5em 1.25em;
+  border-radius: 25px;
 }
 
 input[type="button"].xlarge,
@@ -1907,6 +1925,7 @@ button.xlarge,
 .button.xlarge {
   font-size: 1.5em;
   padding: 0.5em 1.25em 0.5em 1.25em;
+  border-radius: 25px;
 }
 
 @media screen and (max-width: 736px) {

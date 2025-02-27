@@ -349,40 +349,48 @@
               /></a>
             </div>
           </section>
-          <form action="#" method="post">
+          <!-- <form action="#" method="post">
             <div>
               <div class="row">
                 <div class="col-6 col-12-medium">
-                  <input
-                    class="poppins-regular"
-                    type="text"
-                    name="name"
-                    placeholder="Name"
-                  />
+                  <div class="form_box">
+                    <input
+                      class="poppins-regular"
+                      type="text"
+                      name="name"
+                      placeholder="Navn"
+                    />
+                  </div>
                 </div>
                 <div class="col-6 col-12-medium">
-                  <input
-                    class="poppins-regular"
-                    type="text"
-                    name="email"
-                    placeholder="Email"
-                  />
+                  <div class="form_box">
+                    <input
+                      class="poppins-regular"
+                      type="text"
+                      name="email"
+                      placeholder="Email"
+                    />
+                  </div>
                 </div>
                 <div class="col-12">
-                  <input
-                    class="poppins-regular"
-                    type="text"
-                    name="subject"
-                    placeholder="Subject"
-                  />
+                  <div class="form_box">
+                    <input
+                      class="poppins-regular"
+                      type="text"
+                      name="subject"
+                      placeholder="Emne"
+                    />
+                  </div>
                 </div>
                 <div class="col-12">
-                  <textarea
-                    class="poppins-regular"
-                    name="message"
-                    placeholder="Message"
-                    rows="6"
-                  ></textarea>
+                  <div class="form_box">
+                    <textarea
+                      class="poppins-regular"
+                      name="message"
+                      placeholder="Besked"
+                      rows="6"
+                    ></textarea>
+                  </div>
                 </div>
                 <div class="col-12">
                   <input
@@ -391,6 +399,45 @@
                     value="Send besked"
                   />
                 </div>
+              </div>
+            </div>
+          </form> -->
+          <form action="/submit" method="post">
+            <div class="row">
+              <div class="col-6 col-12-medium">
+                <input
+                  class="poppins-regular"
+                  type="text"
+                  name="name"
+                  placeholder="Navn"
+                />
+              </div>
+              <div class="col-6 col-12-medium">
+                <input
+                  class="poppins-regular"
+                  type="text"
+                  name="e-mail"
+                  placeholder="E-mail"
+                />
+              </div>
+              <div class="col-12">
+                <input
+                  class="poppins-regular"
+                  type="text"
+                  name="titel"
+                  placeholder="Emne"
+                />
+              </div>
+              <div class="col-12">
+                <textarea
+                  class="poppins-regular"
+                  name="Besked"
+                  placeholder="Besked"
+                  id=""
+                ></textarea>
+              </div>
+              <div class="col-12">
+                <input type="submit" value="Send besked" />
               </div>
             </div>
           </form>
