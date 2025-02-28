@@ -1506,11 +1506,20 @@ select {
   }
 
   .software {
-    flex: 1 0 100px;
+    display: flex;
+    flex-direction: column; /* Sørger for at billede og tekst er i en kolonne */
+    align-items: center; /* Centrerer både billede og tekst horisontalt */
+    text-align: center; /* Sikrer at teksten også centreres */
   }
 
   .softwareimg {
     width: 50%;
+    display: block; /* Fjerner unødvendig flex-property */
+    margin: 0 auto; /* Centrerer billedet */
+  }
+
+  .software p {
+    margin-top: 10px; /* Lidt afstand til billedet */
   }
 
   .grid_sprog {
