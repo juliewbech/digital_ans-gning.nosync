@@ -2558,8 +2558,6 @@ body.is-preload #wrapper {
   overflow: hidden;
   position: relative;
   inset-inline: auto;
-  max-width: 298px;
-  min-width: 298px;
 }
 .dropdown input:where(:checked) ~ .list {
   opacity: 1;
