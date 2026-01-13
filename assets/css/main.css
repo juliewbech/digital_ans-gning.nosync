@@ -1500,6 +1500,11 @@ select {
     padding-top: 12px;
   }
 
+  .grid_SoMe2 {
+    display: flex;
+    gap: 20px;
+  }
+
   .grid_software {
     display: flex;
     flex-wrap: wrap;
