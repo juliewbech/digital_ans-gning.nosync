@@ -2296,7 +2296,7 @@ body.is-preload #wrapper {
 @media screen and (min-width: 980px) {
   .grid3 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     column-gap: 2px;
   }
 }
@@ -2309,7 +2309,7 @@ body.is-preload #wrapper {
 
   .grid3 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     column-gap: 2px;
   }
 }
@@ -2322,7 +2322,7 @@ body.is-preload #wrapper {
 
   .grid3 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     column-gap: 2px;
   }
 }
