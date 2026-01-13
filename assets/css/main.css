@@ -2632,6 +2632,11 @@ body.is-preload #wrapper {
   height: auto;
 }
 
+.video {
+  width: 100%;
+  height: auto;
+}
+
 @media screen and (max-width: 736px) {
   #footer .copyright li {
     padding-left: 0.5em;
