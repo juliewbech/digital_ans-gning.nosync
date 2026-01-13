@@ -2627,6 +2627,11 @@ body.is-preload #wrapper {
   background: #c1c2c5;
 }
 
+.sw {
+  width: 80px;
+  height: auto;
+}
+
 @media screen and (max-width: 736px) {
   #footer .copyright li {
     padding-left: 0.5em;
