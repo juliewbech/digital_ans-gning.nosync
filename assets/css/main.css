@@ -2579,12 +2579,12 @@ body.is-preload #wrapper {
   color: aliceblue;
   cursor: pointer;
   padding: 16px;
-  padding-top: 4px;
   width: 100%;
   border: none;
   text-align: left;
   outline: none;
   font-size: 13px;
+  margin-top: 2px;
 }
 
 .collapsible:hover {
