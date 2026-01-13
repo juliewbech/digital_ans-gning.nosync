@@ -2558,10 +2558,8 @@ body.is-preload #wrapper {
   text-align: left;
   outline: none;
   font-size: 13px;
-  font-family: poppins_regular;
 }
 
-.active,
 .collapsible:hover {
   background-color: gray;
 }
@@ -2601,6 +2599,12 @@ body.is-preload #wrapper {
 }
 .webkit-scrollbar:hover::-webkit-scrollbar-thumb {
   background: #c1c2c5;
+}
+
+.grid3 {
+  display: flex;
+  gap: 15px;
+  padding-top: 12px;
 }
 
 @media screen and (max-width: 736px) {
