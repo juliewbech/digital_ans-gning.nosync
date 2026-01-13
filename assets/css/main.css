@@ -2628,13 +2628,13 @@ body.is-preload #wrapper {
 }
 
 .sw {
-  width: 400px;
+  width: 100%;
   height: auto;
 }
 
 .video {
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 @media screen and (max-width: 736px) {
