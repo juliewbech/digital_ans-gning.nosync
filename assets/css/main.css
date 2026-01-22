@@ -164,10 +164,14 @@ video {
 }
 
 h3 {
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 #infografik {
+  margin-top: 1rem;
+}
+
+#collapsible {
   margin-top: 1rem;
 }
 
