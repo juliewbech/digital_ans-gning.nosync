@@ -163,6 +163,10 @@ video {
   vertical-align: baseline;
 }
 
+h3 {
+  margin-top: 2rem;
+}
+
 article,
 aside,
 details,
