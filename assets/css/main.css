@@ -1917,6 +1917,11 @@ header > p {
   width: auto;
 }
 
+.hyldeststudiolinks {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 .workimg {
   border-radius: 15px;
   /* outline: 3px solid red; */
